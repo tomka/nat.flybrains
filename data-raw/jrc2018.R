@@ -15,3 +15,14 @@ JRC2018F <-
   )
 
 use_data(JRC2018F, overwrite = T)
+
+JRC2018U <-
+  as.templatebrain('data-raw/JRC2018_UNISEX_20x_HR.nrrd',
+    regName = 'JRC2018U',
+    type = 'Average template brain',
+    sex = 'U',
+    doi = 'https://doi.org/10.1101/376384',
+    description="Average template brain constructed from brains labelled with brp-SNAP presynaptic marker,
+    dehydrated, and mounted in DPX and then imaged by confocal microscope."
+  )
+use_data(JRC2018U, overwrite = T)
