@@ -17,6 +17,22 @@
 "JRC2018F"
 
 
+#' Template information and surface model for the JRC2018U reference brain
+#'
+#' @description The \code{JRC2018U} reference brain is a an average template
+#'   brain constructed from brains JRC2018F and JRC2018M.
+#' @details Downloaded from
+#'   \url{https://www.janelia.org/open-science/jrc-2018-brain-templates}
+#' @references An unbiased template of the Drosophila brain and ventral nerve
+#'   cord John A Bogovic, Hideo Otsuna, Larissa Heinrich, Masayoshi Ito,
+#'   Jennifer Jeter, Geoffrey W Meissner, Aljoscha Nern, Jennifer Colonell, Oz
+#'   Malkesman, Kei Ito, Stephan Saalfeld bioRxiv 376384; doi:
+#'   \href{https://doi.org/10.1101/376384}{doi:10.1101/376384}
+#' @name JRC2018U
+#' @docType data
+"JRC2018U"
+
+
 #' \code{JRC2018F.surf} was generated in Amira from a 2 micron downsampled and
 #' Lanczos filtered version of the JRC2018F template brain. A surface was then
 #' generated with a threshold level of 20; this was then smoothed and
